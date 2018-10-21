@@ -6,7 +6,7 @@ This script can be used as a simple launcher or just stay launched in system tra
 Every 5 minutes it sends a special system message to SAI that triggers `File => Save` menu item. Antiviruses can treat that as a suspicious activity, so alternatively it can emulate `Ctrl+S` hotkey. Note that both methods work even when SAI window is not focused.
 
 ## Why
-Once a friend of mine lost his progress in SAI 2 so this thing became something that could help to avoid such cases in the future.
+Once a friend of mine (Tai Kai) lost his progress in SAI 2 so this thing became something that could help to avoid such cases in the future.
 
 ## How to use?
 In the perfect case, just put the `Autosave.exe` file in the `sai2.exe` folder and use it instead of `sai2.exe` (more info below).  

@@ -23,7 +23,7 @@ defWParam		:= "0x20056"
 defLParam		:= "0"
 
 version			:= "1.1"
-editDate		:= "Jan 09, 2017"
+editDate		:= "Oct 21, 2018"
 getIniArg		:= "-ini"
 
 ; -------------------------
@@ -200,6 +200,6 @@ By default it sends save command to %defApp% every %time% minutes.
 
 Launch script with “%getIniArg%” argument to generate configurable .ini file.
 
-Made by Jesse Orange special for Taiketshin Ionak.
+Made by Jesse Orange special for Tai Kai.
 )
 return
