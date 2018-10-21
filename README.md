@@ -1,6 +1,9 @@
 # Autosave
 Simple autosave for SAI 2 (and probably for other apps)
 
+## Download
+[Executable](https://github.com/JesseOrange/Autosave/raw/master/Autosave.exe) (or [source script](https://github.com/JesseOrange/Autosave/raw/master/Autosave.exe))
+
 ## What
 This script can be used as a simple launcher or just stay launched in system tray.  
 Every 5 minutes it sends a special system message to SAI that triggers `File => Save` menu item. Antiviruses can treat that as a suspicious activity, so alternatively it can emulate `Ctrl+S` hotkey. Note that both methods work even when SAI window is not focused.
