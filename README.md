@@ -1,8 +1,12 @@
 # Autosave
-Simple autosave for SAI 2 (and probably for other apps)
+Simple autosave tool for SAI (1 and 2) and other apps that don't support autosave
 
 ## Download
-[Executable](https://github.com/JesseOrange/Autosave/raw/master/Autosave.exe) (or [source script](https://github.com/JesseOrange/Autosave/raw/master/Autosave.exe))
+* [Autosave.exe](https://github.com/JesseOrange/Autosave/raw/master/Autosave.exe)
+* ...or [source .ahk script](https://github.com/JesseOrange/Autosave/raw/master/Autosave.exe)
+
+## Changelog
+[CHANGELOG.md](CHANGELOG.md)
 
 ## What
 This script can be used as a simple launcher or just stay launched in system tray.  
@@ -30,6 +34,16 @@ App = sai2_original.exe
 ```
 Now everytime you open SAI (either directly or by opening `.sai / .sai2` files), it will start this script that starts SAI. When SAI is closed, the script will be terminated as well. Note that the script will be terminated not instantly, but in `<= 5` minutes. It doesn't affect its work though.  
 Another note: in this case the config file is named `sai2_config.ini`, not `Autosave_config.ini`. This script uses its own filename to compute a config name.
+
+## Usage example with other apps
+A config example how to use this script with Clip Studio Paint. I'm not really sure if CSP has autosave so this section exists rather to show how to use it with non-SAI apps:
+```ini
+[Main]
+App = CLIPStudioPaint.exe
+
+[Keys]
+UseHotkeysInsteadOfCommands = 1
+```
 
 # Config
 
